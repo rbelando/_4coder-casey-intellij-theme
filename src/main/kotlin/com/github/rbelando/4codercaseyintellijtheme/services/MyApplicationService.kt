@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.rbelando.4codercaseyintellijtheme.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.rbelando.4codercaseyintellijtheme.MyBundle
 
 class MyApplicationService {
 
