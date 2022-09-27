@@ -1,6 +1,6 @@
-package com.github.rbelando.4codercaseyintellijtheme.services
+package com.github.rbelando._4codercaseyintellijtheme.services
 
-import com.github.rbelando.4codercaseyintellijtheme.MyBundle
+import com.github.rbelando._4codercaseyintellijtheme.MyBundle
 
 class MyApplicationService {
 

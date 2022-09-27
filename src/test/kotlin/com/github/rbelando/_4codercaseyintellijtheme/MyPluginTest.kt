@@ -1,4 +1,4 @@
-package com.github.rbelando.4codercaseyintellijtheme
+package com.github.rbelando._4codercaseyintellijtheme
 
 import com.intellij.ide.highlighter.XmlFileType
 import com.intellij.psi.xml.XmlFile
@@ -10,7 +10,8 @@ import com.intellij.util.PsiErrorElementUtil
 class MyPluginTest : BasePlatformTestCase() {
 
     fun testXMLFile() {
-        val psiFile = myFixture.configureByText(XmlFileType.INSTANCE, "<foo>bar</foo>")
+        val psiFile =
+            myFixture.configureByText(XmlFileType.INSTANCE, "<foo>bar</foo>")
         val xmlFile = assertInstanceOf(psiFile, XmlFile::class.java)
 
         assertFalse(PsiErrorElementUtil.hasErrors(project, xmlFile.virtualFile))

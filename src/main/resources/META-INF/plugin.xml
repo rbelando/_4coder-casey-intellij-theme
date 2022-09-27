@@ -1,18 +1,14 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.rbelando.4codercaseyintellijtheme</id>
-    <name>_4coder-casey-intellij-theme</name>
+    <id>com.github.rbelando._4codercaseyintellijtheme</id>
+    <name>4Coder Casey Theme</name>
     <vendor>rbelando</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.rbelando.4codercaseyintellijtheme.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.rbelando.4codercaseyintellijtheme.services.MyProjectService"/>
+        <themeProvider id="e0e76039-b5ba-43b4-bd2b-dc63efe94d21"
+                       path="/themes/_4codercaseyintellij.theme.json"/>
     </extensions>
 
-    <applicationListeners>
-        <listener class="com.github.rbelando.4codercaseyintellijtheme.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
 </idea-plugin>

@@ -1,0 +1,34 @@
+{
+  "author": "Rubén Belando",
+  "dark": true,
+  "editorScheme": "/themes/_4coder_casey_intellij.xml",
+  "name": "4Coder Casey IntelliJ",
+  "ui": {
+    "*": {
+      "background": "#161616",
+      "disabledBackground": "#252526",
+      "inactiveBackground": "#323335",
+      "selectionBackground": "#313234",
+      "selectionInactiveBackground": "#313234",
+      "lightSelectionBackground": "#353638",
+      "lightSelectionInactiveBackground": "#252526",
+      "borderColor": "#0c0c0c",
+      "disabledBorderColor": "#3d3e40",
+      "separatorForeground": "#3d3e40",
+      "separatorColor": "#0c0c0c",
+      "lineSeparatorColor": "#0c0c0c",
+      "underlineColor": "#2f65ca",
+      "underlineHeight": 2
+    },
+    "Borders": {
+      "color": "#1f1f27",
+      "ContrastBorderColor": "#1f1f27"
+    },
+    "EditorTabs": {
+      "tabInsets": true,
+      "underlinedTabBackground": "#1f1f27",
+      "inactiveColoredFileBackground": "#2d281d"
+    },
+    "Tree.background": "#161616"
+  }
+}

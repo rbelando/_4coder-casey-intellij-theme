@@ -1,7 +1,7 @@
-package com.github.rbelando.4codercaseyintellijtheme.services
+package com.github.rbelando._4codercaseyintellijtheme.services
 
+import com.github.rbelando._4codercaseyintellijtheme.MyBundle
 import com.intellij.openapi.project.Project
-import com.github.rbelando.4codercaseyintellijtheme.MyBundle
 
 class MyProjectService(project: Project) {
 

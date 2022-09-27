@@ -1,9 +1,9 @@
-package com.github.rbelando.4codercaseyintellijtheme.listeners
+package com.github.rbelando._4codercaseyintellijtheme.listeners
 
+import com.github.rbelando._4codercaseyintellijtheme.services.MyProjectService
 import com.intellij.openapi.components.service
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
-import com.github.rbelando.4codercaseyintellijtheme.services.MyProjectService
 
 internal class MyProjectManagerListener : ProjectManagerListener {
 
