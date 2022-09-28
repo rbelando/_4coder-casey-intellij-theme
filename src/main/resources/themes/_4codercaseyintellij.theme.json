@@ -5,7 +5,7 @@
   "name": "4Coder Casey IntelliJ",
   "ui": {
     "*": {
-      "background": "#161616",
+      "background": "#0c0c0c",
       "disabledBackground": "#252526",
       "inactiveBackground": "#323335",
       "selectionBackground": "#313234",
@@ -29,6 +29,6 @@
       "underlinedTabBackground": "#1f1f27",
       "inactiveColoredFileBackground": "#2d281d"
     },
-    "Tree.background": "#161616"
+    "Tree.background": "#0c0c0c"
   }
 }
